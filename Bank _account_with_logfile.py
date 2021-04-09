@@ -6,7 +6,6 @@ class bankaccount:
         self.depositclass = cldeposit
         self.acc = 0
 
-
     def log(self, message):
         self.mylog = open("Log.txt", "a")
 
