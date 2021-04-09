@@ -1,5 +1,4 @@
 import time
-
 dashes = 1
 spaces = 9
 count = 0
@@ -7,7 +6,7 @@ count = 0
 for i in range(10):
     print("Loading[", end="")
     for x in range(dashes):
-         print("#", end="")
+         print("|", end="")
     for y in range(spaces):
         print(end=" ")
     time.sleep(1)
